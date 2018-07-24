@@ -1,49 +1,101 @@
-body{
-	font-size: 16pt;
-	margin:0;
-	box-sizing: border-box;
+*{
+	margin: 0;
+	padding: 0;
+	font-style: 16pt; 
+}
+header > nav ul{
+	list-style: none;
+	background-color: #3f2f2f;
+	text-align: center;
 }
 
-header > nav ul, footer{
-	list-style: none;
-	background-color: #4f4f4f;
-	margin:0;
-	text-align: center;
-	font-size: 18pt;
-}
-header > nav ul li > a{
+header > nav ul li>a{
 	text-decoration: none;
-	color: #ffffff;
+	color : white;
+	font-size: 18pt;
 }
 
 header > nav ul li{
-	display: inline-block;
+	display : inline-block;
 	margin-left: 10px;
 	padding: 10px;
 }
 
-footer>div{
-	padding: 10px;
-	color: #ffffff;
+footer{
+	text-align: center;
+	background-color: #3f2f2f;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }
 
 .myphoto{
 	text-align: center;
-	color: #0077b5;
 }
+
 .myphoto img{
-	width:30%;
-	border: 1px solid #000000;
-	border-radius: 50%;
+	width: 10%;
+	border: 1px dotted #000000;
+	border-radius: 50%;                                                
 }
+.contact-form *,.social-media *{
+	width: 100%;
+	margin-bottom: 10px;
+	display: block;
+	border-radius: 4px;
+}
+
+
 .contact-form,.social-media{
 	position: relative;
 	float: left;
-	width:45%;
-	margin-left:2%; 
+	width: 45%;
+	margin: 5px;
+	border: 10px solid black;
+	padding: 20px;
+	border-radius: 4px; 
+	display: block;
 }
-footer{
-	position: fixed;
-	width: 100%;
-	bottom: 0;
+
+.contact-form input[type='submit']:hover{
+	opacity: 0.8;
+	background-color: black;
+	color: #fafafa;
+	
+}
+
+.social-media > a{
+	display: block;
+	text-decoration:none;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.social-media i{
+	display: inline;
+	margin: 5px;
+
+}
+
+main{
+	margin: 5px;
+}
+
+.gallery figure img{
+	height: 200px;
+	width: 200px;
+}
+
+.gallery figure{
+	border:1px solid black;
+	position: relative;
+	float:left;
+	padding: 5px;
+	margin: 10px;
+	text-align: center;
+}
+
+.gallery{
+	text-align: center;
 }
