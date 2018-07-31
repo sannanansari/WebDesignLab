@@ -23,4 +23,7 @@ function checkEmail(e){
 	return True
 }
 
-var email = document.getElementById('Email1')
+var email = document.getElementById('Email1');
+email.addEventListener('blur',checkEmail,false);
+var sub = document.getElementById('sub');
+email.addEventListener('blur',checkEmail,false);
