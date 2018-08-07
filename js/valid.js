@@ -22,8 +22,12 @@ function checkEmail(e){
 	}
 	return True
 }
+function submitform(e){
+	var contact = document.getElementByClassName('contact-form');
 
+}
 var email = document.getElementById('Email1');
 email.addEventListener('blur',checkEmail,false);
-var sub = document.getElementById('sub');
+var sub = document.getElementById('subject');
 email.addEventListener('blur',checkEmail,false);
+var submit = document.getElementById()
