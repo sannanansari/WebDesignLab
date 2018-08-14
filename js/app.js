@@ -24,7 +24,7 @@ $(function(){
 			alert('Invalid');
 			this.value = "";
 			$(this).focus();
-			return false;
-		}
+			return false
+;		}
 	}
 });
